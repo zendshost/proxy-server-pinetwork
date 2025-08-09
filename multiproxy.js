@@ -26,7 +26,7 @@ setInterval(() => {
   currentNodeIndex = (currentNodeIndex + 1) % TARGET_NODES.length;
   currentTargetNode = TARGET_NODES[currentNodeIndex];
   console.log(`[ROTATION] Target server diubah ke: ${currentTargetNode}`);
-}, 2000); // 2000 milidetik = 2 detik
+}, 1000); // 1000 milidetik = 1 detik
 
 // --- Middleware ---
 app.use(cors());
