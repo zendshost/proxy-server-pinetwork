@@ -9,8 +9,8 @@ const app = express();
 const PORT = 31401;
 
 // --- Konfigurasi Notifikasi Telegram (GANTI DENGAN MILIK ANDA) ---
-const TELEGRAM_BOT_TOKEN = '8311357854:AAHSnR0IGV146rR9BcpPK1NzGohny82qF3A'; // <-- GANTI INI
-const TELEGRAM_CHAT_ID = '7890743177';   // <-- GANTI INI
+const TELEGRAM_BOT_TOKEN = '8311357854:AAHSnR0IGV146rR9BcpPxxxxxxx'; // <-- GANTI INI
+const TELEGRAM_CHAT_ID = '123456789';   // <-- GANTI INI
 
 // --- Daftar server target untuk rotasi ---
 const TARGET_NODES = [
