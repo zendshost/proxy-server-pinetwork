@@ -20,7 +20,7 @@ const TARGET_NODES = [
 let currentNodeIndex = 0;
 let currentTargetNode = TARGET_NODES[currentNodeIndex]; // Node yang aktif saat ini
 
-// --- BARU: Logic untuk rotasi server setiap 2 detik ---
+// --- BARU: Logic untuk rotasi server setiap 1 detik ---
 setInterval(() => {
   // Pindah ke index berikutnya, kembali ke 0 jika sudah di akhir daftar
   currentNodeIndex = (currentNodeIndex + 1) % TARGET_NODES.length;
