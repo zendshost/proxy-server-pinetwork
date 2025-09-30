@@ -7,7 +7,7 @@ const app = express();
 
 // --- Konfigurasi ---
 const PORT = 31401; // Port tempat proxy ini berjalan
-const TARGET_NODE = 'http://14.241.120.142:31401'; // Alamat server Horizon yang dituju
+const TARGET_NODE = 'http://203.236.58.84:31401'; // Alamat server Horizon yang dituju
 
 // --- Middleware ---
 app.use(cors());
