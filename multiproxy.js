@@ -16,7 +16,6 @@ const TELEGRAM_CHAT_ID = '123456789';   // <-- GANTI INI
 // --- Daftar server target untuk rotasi ---
 const TARGET_NODES = [
   'http://113.176.102.87:31401',
-  'http://14.241.120.142:31401',
   'http://113.160.156.51:31401',
 ];
 
